@@ -1,3 +1,3 @@
-Bot Official Auto Save when user send image
-########################################
-![Example](https://amibot.dev/line/270.jpg)
+# Bot Official Auto Save when user send image
+
+![](https://github.com/amisama/lineautosave/blob/master/ex.jpg)
