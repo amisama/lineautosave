@@ -44,7 +44,7 @@ class LINEBotTiny
             error_log("Method not allowed");
             exit();
         }
-
+//test
         $entityBody = file_get_contents('php://input');
 
         if (strlen($entityBody) === 0) {
