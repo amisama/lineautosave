@@ -13,7 +13,7 @@ if ($message['type']=='image') {
 	
 	$responses['replyToken'] = $replyToken;
 	$responses['messages']['0']['type'] = "text";
-	$responses['messages']['0']['text'] = "https://amibot.dev/line/$namaFile";
+	$responses['messages']['0']['text'] = "https://localhost/$namaFile";
 	$result = json_encode($responses);
 	$result_json = json_decode($result, TRUE);
 	$balas = $result_json;
@@ -28,7 +28,7 @@ if ($message['type']=='video') {
 	
 	$responses['replyToken'] = $replyToken;
 	$responses['messages']['0']['type'] = "text";
-	$responses['messages']['0']['text'] = "https://amibot.dev/line/$namaFile";
+	$responses['messages']['0']['text'] = "https://localhost/$namaFile";
 	$result = json_encode($responses);
 	$result_json = json_decode($result, TRUE);
 	$balas = $result_json;
